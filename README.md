@@ -42,37 +42,53 @@
           .....       ...........::-==++++++=======------:
 ```
 
-Software engineer working mostly in **Python** and **Go**, with a side habit of
-building games in **Godot**. Currently splitting time between data-platform work
-and an increasingly unreasonable amount of market-microstructure code.
+Software engineer who builds with **AI coding agents**. I use Claude Code and Codex to
+work in codebases and languages I did not write: I choose the problem, direct the
+agent, and verify the result before anything ships.
 
-I like systems that have to survive contact with the real world — live market
-feeds, flaky websockets, brokers that disagree with their own documentation.
+Verifying is the part I care about. Reproduce the bug, make a test fail first where one
+applies, run the project's own checks, read the diff, and only then open the pull request.
 
 ---
+
+### Open-source contributions
+
+**9 pull requests across 8 projects** · 3 landed · 6 in review · <sub>updated 6 October 2026</sub>
+
+Bug fixes in projects I had never seen before, in Python, Go, Rust and TypeScript, written
+with AI agents. Each one was reproduced before it was fixed and checked against the
+project's own tests.
+
+| Project | What I fixed | PR | Status |
+|---|---|---|---|
+| **[chunkhound](https://github.com/chunkhound/chunkhound)** · code search for AI agents · Python/Rust | Undefined names in two language parsers that broke lint and type checks | [#432](https://github.com/chunkhound/chunkhound/pull/432) | ✅ Merged |
+| **[office365-rest-python-client](https://github.com/vgrem/office365-rest-python-client)** · Microsoft 365 client · Python | Apostrophes in SharePoint paths were escaped twice, so files could not be found | [#1053](https://github.com/vgrem/office365-rest-python-client/pull/1053) | ✅ Merged |
+| **[collie](https://github.com/AltanS/collie)** · phone UI for terminal AI agents · TypeScript | tmux listings failed to parse with no UTF-8 locale, showing a healthy host as down | [#360](https://github.com/AltanS/collie/pull/360) | ✅ Shipped in v1.17.0 |
+| **[chunkhound](https://github.com/chunkhound/chunkhound)** · Rust pipeline | Re-indexing an unchanged project needlessly rebuilt the vector index | [#433](https://github.com/chunkhound/chunkhound/pull/433) | 🔄 In review |
+| **[scaleway-cli](https://github.com/scaleway/scaleway-cli)** · Scaleway's official CLI · Go | Doc generator did not escape `\|`, breaking tables on three command pages | [#6359](https://github.com/scaleway/scaleway-cli/pull/6359) | 🔄 In review |
+| **[rust-decimal](https://github.com/paupino/rust-decimal)** · decimal numbers for Rust | Exact parsing rejected a valid digit separator after the 28th decimal place | [#868](https://github.com/paupino/rust-decimal/pull/868) | 🔄 In review |
+| **[webawesome](https://github.com/shoelace-style/webawesome)** · web components · TypeScript/CSS | Sprite-sheet icons rendered a 300px-wide box that stole clicks from neighbours | [#2920](https://github.com/shoelace-style/webawesome/pull/2920) | 🔄 In review |
+| **[flyline](https://github.com/HalFrgrd/flyline)** · Bash line editor · Rust | `${VAR}` was not highlighted as a variable the way `$VAR` is | [#1030](https://github.com/HalFrgrd/flyline/pull/1030) | 🔄 In review |
+| **[doorstop](https://github.com/doorstop-dev/doorstop)** · requirements management · Python | The documented example server adapter had a syntax error | [#849](https://github.com/doorstop-dev/doorstop/pull/849) | 🔄 In review |
+
+[All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
 
 ### What I work with
 
 ```
-Python      async, FastAPI, pandas, websockets, trading systems
-Go          backend services, data pipelines
-GDScript    Godot — 2D/3D, shaders, Android export
-TypeScript  React frontends
-Tooling     LLM agents, Claude Code skills, automation
+AI engineering   agentic coding with Claude Code and Codex, prompt and context design,
+                 custom skills and plugins, multi-agent workflows
+Verification     reproducing bugs, failing-test-first fixes, reviewing AI-written diffs,
+                 working with a project's CI and linters
+Delivery         upstream pull requests in unfamiliar Python, Go, Rust and TypeScript code
+Day to day       Python (FastAPI, async, trading systems), Godot
 ```
 
-### Things I've built
+### Personal projects
 
-| | |
-|---|---|
-| **[EventsTrader](https://github.com/WynandVStaden/EventsTrader)** | Multi-strategy algorithmic trading suite in Python. Catalyst bots across crypto, forex, commodities and equities, a BTC microstructure bot trading liquidation cascades, an LLM-driven signal judge, and a FastAPI console to supervise it all. |
-| **[aegis](https://github.com/WynandVStaden/aegis)** | A Godot space-colonization idle game for Android. |
-| **[elfray](https://github.com/WynandVStaden/elfray)** | Godot game project — custom shaders, voice systems, the works. |
-
-### Currently
-
-Teaching a Bitcoin bot the difference between a liquidation cascade and a bad
-afternoon. Results pending.
+- **[EventsTrader](https://github.com/WynandVStaden/EventsTrader)** — multi-strategy algorithmic trading suite in Python, with an LLM-driven signal judge and a FastAPI console to supervise it.
+- **[aegis](https://github.com/WynandVStaden/aegis)** — a Godot space-colonization game for Android, developed together with an autonomous coding agent.
+- **[elfray](https://github.com/WynandVStaden/elfray)** — Godot game project with custom shaders and voice systems.
 
 ---
 
