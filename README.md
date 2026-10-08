@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**14 pull requests across 13 projects** · 3 landed · 11 in review · <sub>updated 8 October 2026</sub>
+**15 pull requests across 14 projects** · 3 landed · 12 in review · <sub>updated 8 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -32,6 +32,7 @@ fixed and checked against the project's own tests.
 | **[snip](https://github.com/edouard-claude/snip)** · output trimming for coding agents · Go | The Pi agent hook produced a Windows path that bash could not run | [#197](https://github.com/edouard-claude/snip/pull/197) | 🔄 In review |
 | **[kloset](https://github.com/PlakarKorp/kloset)** · storage engine of the plakar backup tool · Go | Maintenance aborted on Windows backups whose drive letter was recorded in lowercase | [#567](https://github.com/PlakarKorp/kloset/pull/567) | 🔄 In review |
 | **[math.js](https://github.com/josdejong/mathjs)** · maths library with an expression parser and symbolic algebra · JavaScript | Symbolic differentiation gave wrong results for nested derivatives, such as a second derivative coming out as 0 | [#3715](https://github.com/josdejong/mathjs/pull/3715) | 🔄 In review |
+| **[KAPLAY](https://github.com/kaplayjs/kaplay)** · 2D game library for the browser · TypeScript | Colliding bodies ignored each other's mass and velocity, so collisions did not conserve momentum | [#1174](https://github.com/kaplayjs/kaplay/pull/1174) | 🔄 In review |
 | **[doorstop](https://github.com/doorstop-dev/doorstop)** · requirements management · Python | The documented example server adapter had a syntax error | [#849](https://github.com/doorstop-dev/doorstop/pull/849) | 🔄 In review |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
