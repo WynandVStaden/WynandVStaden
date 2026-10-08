@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**10 pull requests across 9 projects** · 3 landed · 7 in review · <sub>updated 8 October 2026</sub>
+**11 pull requests across 10 projects** · 3 landed · 8 in review · <sub>updated 8 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -28,6 +28,7 @@ fixed and checked against the project's own tests.
 | **[webawesome](https://github.com/shoelace-style/webawesome)** · web components · TypeScript/CSS | Sprite-sheet icons rendered a 300px-wide box that stole clicks from neighbours | [#2920](https://github.com/shoelace-style/webawesome/pull/2920) | 🔄 In review |
 | **[flyline](https://github.com/HalFrgrd/flyline)** · Bash line editor · Rust | `${VAR}` was not highlighted as a variable the way `$VAR` is | [#1030](https://github.com/HalFrgrd/flyline/pull/1030) | 🔄 In review |
 | **[atlas](https://github.com/pacifio/atlas)** · desktop app for coding agents · Rust/Tauri | Unit tests could not start on Windows because the test binary had no application manifest | [#390](https://github.com/pacifio/atlas/pull/390) | 🔄 In review |
+| **[smolvm](https://github.com/smol-machines/smolvm)** · micro-VMs from container images · Rust | Packed images could not be extracted on Windows because of an invalid path for directory entries | [#1617](https://github.com/smol-machines/smolvm/pull/1617) | 🔄 In review |
 | **[doorstop](https://github.com/doorstop-dev/doorstop)** · requirements management · Python | The documented example server adapter had a syntax error | [#849](https://github.com/doorstop-dev/doorstop/pull/849) | 🔄 In review |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
