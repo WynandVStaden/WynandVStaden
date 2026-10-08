@@ -1,21 +1,21 @@
 # Wynand van Staden
 
-Software engineer who builds with **AI coding agents**. I use Claude Code and Codex to
-work in codebases and languages I did not write: I choose the problem, direct the
-agent, and verify the result before anything ships.
+Software developer who is enthusiastic about technology: how things work, why they
+break, and how to fix them properly.
 
-Verifying is the part I care about. Reproduce the bug, make a test fail first where one
-applies, run the project's own checks, read the diff, and only then open the pull request.
+In my spare time I look for real bugs in open-source tools, reproduce them, and send
+the fix upstream. It is the best way I have found to keep learning, because every
+project has a different language, a different test setup and maintainers with their
+own standards.
 
 ---
 
 ### Open-source contributions
 
-**9 pull requests across 8 projects** · 3 landed · 6 in review · <sub>updated 6 October 2026</sub>
+**9 pull requests across 8 projects** · 3 landed · 6 in review · <sub>updated 8 October 2026</sub>
 
-Bug fixes in projects I had never seen before, in Python, Go, Rust and TypeScript, written
-with AI agents. Each one was reproduced before it was fixed and checked against the
-project's own tests.
+Bug fixes in projects I had not worked on before. Each one was reproduced before it was
+fixed and checked against the project's own tests.
 
 | Project | What I fixed | PR | Status |
 |---|---|---|---|
@@ -34,16 +34,13 @@ project's own tests.
 ### What I work with
 
 ```
-AI engineering   agentic coding with Claude Code and Codex, prompt and context design,
-                 custom skills and plugins, multi-agent workflows
-Verification     reproducing bugs, failing-test-first fixes, reviewing AI-written diffs,
-                 working with a project's CI and linters
-Delivery         upstream pull requests in unfamiliar Python, Go, Rust and TypeScript code
-Day to day       Python (FastAPI, async, trading systems), Godot
+Languages   Python day to day; Go, Rust and TypeScript when a project calls for it
+Interests   developer tooling, automation, trading systems, game development in Godot
+Workflow    reproduce first, fix with a test, AI-assisted development, reading unfamiliar code
 ```
 
 ### Personal projects
 
 - **[EventsTrader](https://github.com/WynandVStaden/EventsTrader)** — multi-strategy algorithmic trading suite in Python, with an LLM-driven signal judge and a FastAPI console to supervise it.
-- **[aegis](https://github.com/WynandVStaden/aegis)** — a Godot space-colonization game for Android, developed together with an autonomous coding agent.
+- **[aegis](https://github.com/WynandVStaden/aegis)** — a Godot space-colonization game for Android.
 - **[elfray](https://github.com/WynandVStaden/elfray)** — Godot game project with custom shaders and voice systems.
