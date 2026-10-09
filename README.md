@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**17 pull requests across 15 projects** · 6 merged · 11 in review · <sub>updated 9 October 2026</sub>
+**17 pull requests across 15 projects** · 7 merged · 10 in review · <sub>updated 9 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -25,6 +25,7 @@ fixed and checked against the project's own tests.
 | **[rust-decimal](https://github.com/paupino/rust-decimal)** · decimal numbers for Rust | Exact parsing rejected a valid digit separator after the 28th decimal place | [#868](https://github.com/paupino/rust-decimal/pull/868) | ✅ Merged |
 | **[smolvm](https://github.com/smol-machines/smolvm)** · micro-VMs from container images · Rust | Packed images could not be extracted on Windows because of an invalid path for directory entries | [#1617](https://github.com/smol-machines/smolvm/pull/1617) | ✅ Merged |
 | **[snip](https://github.com/edouard-claude/snip)** · output trimming for coding agents · Go | The Pi agent hook produced a Windows path that bash could not run | [#197](https://github.com/edouard-claude/snip/pull/197) | ✅ Merged |
+| **[doorstop](https://github.com/doorstop-dev/doorstop)** · requirements management · Python | The documented example server adapter had a syntax error | [#849](https://github.com/doorstop-dev/doorstop/pull/849) | ✅ Merged |
 | **[chunkhound](https://github.com/chunkhound/chunkhound)** · Rust pipeline | Re-indexing an unchanged project needlessly rebuilt the vector index | [#433](https://github.com/chunkhound/chunkhound/pull/433) | 🔄 In review |
 | **[scaleway-cli](https://github.com/scaleway/scaleway-cli)** · Scaleway's official CLI · Go | Doc generator did not escape `\|`, breaking tables on three command pages | [#6359](https://github.com/scaleway/scaleway-cli/pull/6359) | 🔄 In review |
 | **[webawesome](https://github.com/shoelace-style/webawesome)** · web components · TypeScript/CSS | Sprite-sheet icons rendered a 300px-wide box that stole clicks from neighbours | [#2920](https://github.com/shoelace-style/webawesome/pull/2920) | 🔄 In review |
@@ -35,6 +36,5 @@ fixed and checked against the project's own tests.
 | **[KAPLAY](https://github.com/kaplayjs/kaplay)** · 2D game library for the browser · TypeScript | Colliding bodies ignored each other's mass and velocity, so collisions did not conserve momentum | [#1174](https://github.com/kaplayjs/kaplay/pull/1174) | 🔄 In review |
 | **[Taffy](https://github.com/DioxusLabs/taffy)** · CSS Flexbox/Grid layout engine used by Bevy, Dioxus and Zed · Rust | Containers with a `max-width` laid out their children as if the limit was not there, so text wrapped at the wrong width | [#1277](https://github.com/DioxusLabs/taffy/pull/1277) | 🔄 In review |
 | **[snip](https://github.com/edouard-claude/snip)** · test suite | On Windows the tests ignored their temporary home folder and used the real one; fixing it made 31 failing tests pass | [#199](https://github.com/edouard-claude/snip/pull/199) | 🔄 In review |
-| **[doorstop](https://github.com/doorstop-dev/doorstop)** · requirements management · Python | The documented example server adapter had a syntax error | [#849](https://github.com/doorstop-dev/doorstop/pull/849) | 🔄 In review |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
