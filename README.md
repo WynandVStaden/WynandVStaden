@@ -37,17 +37,3 @@ fixed and checked against the project's own tests.
 | **[doorstop](https://github.com/doorstop-dev/doorstop)** · requirements management · Python | The documented example server adapter had a syntax error | [#849](https://github.com/doorstop-dev/doorstop/pull/849) | 🔄 In review |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
-
-### What I work with
-
-```
-Languages   Python day to day; Go, Rust and TypeScript when a project calls for it
-Interests   developer tooling, automation, trading systems, game development in Godot
-Workflow    reproduce first, fix with a test, AI-assisted development, reading unfamiliar code
-```
-
-### Personal projects
-
-- **[EventsTrader](https://github.com/WynandVStaden/EventsTrader)** — multi-strategy algorithmic trading suite in Python, with an LLM-driven signal judge and a FastAPI console to supervise it.
-- **[aegis](https://github.com/WynandVStaden/aegis)** — a Godot space-colonization game for Android.
-- **[elfray](https://github.com/WynandVStaden/elfray)** — Godot game project with custom shaders and voice systems.
