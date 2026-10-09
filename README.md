@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**16 pull requests across 15 projects** · 3 landed · 13 in review · <sub>updated 8 October 2026</sub>
+**16 pull requests across 15 projects** · 5 merged · 11 in review · <sub>updated 9 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -22,13 +22,13 @@ fixed and checked against the project's own tests.
 | **[chunkhound](https://github.com/chunkhound/chunkhound)** · code search for AI agents · Python/Rust | Undefined names in two language parsers that broke lint and type checks | [#432](https://github.com/chunkhound/chunkhound/pull/432) | ✅ Merged |
 | **[office365-rest-python-client](https://github.com/vgrem/office365-rest-python-client)** · Microsoft 365 client · Python | Apostrophes in SharePoint paths were escaped twice, so files could not be found | [#1053](https://github.com/vgrem/office365-rest-python-client/pull/1053) | ✅ Merged |
 | **[collie](https://github.com/AltanS/collie)** · phone UI for terminal AI agents · TypeScript | tmux listings failed to parse with no UTF-8 locale, showing a healthy host as down | [#360](https://github.com/AltanS/collie/pull/360) | ✅ Shipped in v1.17.0 |
+| **[rust-decimal](https://github.com/paupino/rust-decimal)** · decimal numbers for Rust | Exact parsing rejected a valid digit separator after the 28th decimal place | [#868](https://github.com/paupino/rust-decimal/pull/868) | ✅ Merged |
+| **[smolvm](https://github.com/smol-machines/smolvm)** · micro-VMs from container images · Rust | Packed images could not be extracted on Windows because of an invalid path for directory entries | [#1617](https://github.com/smol-machines/smolvm/pull/1617) | ✅ Merged |
 | **[chunkhound](https://github.com/chunkhound/chunkhound)** · Rust pipeline | Re-indexing an unchanged project needlessly rebuilt the vector index | [#433](https://github.com/chunkhound/chunkhound/pull/433) | 🔄 In review |
 | **[scaleway-cli](https://github.com/scaleway/scaleway-cli)** · Scaleway's official CLI · Go | Doc generator did not escape `\|`, breaking tables on three command pages | [#6359](https://github.com/scaleway/scaleway-cli/pull/6359) | 🔄 In review |
-| **[rust-decimal](https://github.com/paupino/rust-decimal)** · decimal numbers for Rust | Exact parsing rejected a valid digit separator after the 28th decimal place | [#868](https://github.com/paupino/rust-decimal/pull/868) | 🔄 In review |
 | **[webawesome](https://github.com/shoelace-style/webawesome)** · web components · TypeScript/CSS | Sprite-sheet icons rendered a 300px-wide box that stole clicks from neighbours | [#2920](https://github.com/shoelace-style/webawesome/pull/2920) | 🔄 In review |
 | **[flyline](https://github.com/HalFrgrd/flyline)** · Bash line editor · Rust | `${VAR}` was not highlighted as a variable the way `$VAR` is | [#1030](https://github.com/HalFrgrd/flyline/pull/1030) | 🔄 In review |
 | **[atlas](https://github.com/pacifio/atlas)** · desktop app for coding agents · Rust/Tauri | Unit tests could not start on Windows because the test binary had no application manifest | [#390](https://github.com/pacifio/atlas/pull/390) | 🔄 In review |
-| **[smolvm](https://github.com/smol-machines/smolvm)** · micro-VMs from container images · Rust | Packed images could not be extracted on Windows because of an invalid path for directory entries | [#1617](https://github.com/smol-machines/smolvm/pull/1617) | 🔄 In review |
 | **[snip](https://github.com/edouard-claude/snip)** · output trimming for coding agents · Go | The Pi agent hook produced a Windows path that bash could not run | [#197](https://github.com/edouard-claude/snip/pull/197) | 🔄 In review |
 | **[kloset](https://github.com/PlakarKorp/kloset)** · storage engine of the plakar backup tool · Go | Maintenance aborted on Windows backups whose drive letter was recorded in lowercase | [#567](https://github.com/PlakarKorp/kloset/pull/567) | 🔄 In review |
 | **[math.js](https://github.com/josdejong/mathjs)** · maths library with an expression parser and symbolic algebra · JavaScript | Symbolic differentiation gave wrong results for nested derivatives, such as a second derivative coming out as 0 | [#3715](https://github.com/josdejong/mathjs/pull/3715) | 🔄 In review |
