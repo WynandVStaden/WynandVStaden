@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**17 pull requests across 15 projects** · 10 merged · 7 in review · <sub>updated 10 October 2026</sub>
+**18 pull requests across 15 projects** · 10 merged · 8 in review · <sub>updated 10 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -36,5 +36,6 @@ fixed and checked against the project's own tests.
 | **[KAPLAY](https://github.com/kaplayjs/kaplay)** · 2D game library for the browser · TypeScript | Colliding bodies ignored each other's mass and velocity, so collisions did not conserve momentum | [#1174](https://github.com/kaplayjs/kaplay/pull/1174) | 🔄 In review |
 | **[Taffy](https://github.com/DioxusLabs/taffy)** · CSS Flexbox/Grid layout engine used by Bevy, Dioxus and Zed · Rust | Containers with a `max-width` laid out their children as if the limit was not there, so text wrapped at the wrong width | [#1277](https://github.com/DioxusLabs/taffy/pull/1277) | 🔄 In review |
 | **[snip](https://github.com/edouard-claude/snip)** · test suite | On Windows the tests ignored their temporary home folder and used the real one; fixing it made 31 failing tests pass | [#199](https://github.com/edouard-claude/snip/pull/199) | 🔄 In review |
+| **[chunkhound](https://github.com/chunkhound/chunkhound)** · documentation | Follow-up requested in review: three descriptions still said the vector index is always rebuilt | [#438](https://github.com/chunkhound/chunkhound/pull/438) | 🔄 In review |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
