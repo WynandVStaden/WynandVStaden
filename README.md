@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**19 pull requests across 15 projects** · 10 merged · 9 in review · <sub>updated 11 October 2026</sub>
+**19 pull requests across 15 projects** · 11 merged · 8 in review · <sub>updated 12 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -29,9 +29,9 @@ fixed and checked against the project's own tests.
 | **[chunkhound](https://github.com/chunkhound/chunkhound)** · Rust pipeline | Re-indexing an unchanged project needlessly rebuilt the vector index | [#433](https://github.com/chunkhound/chunkhound/pull/433) | ✅ Merged |
 | **[flyline](https://github.com/HalFrgrd/flyline)** · Bash line editor · Rust | `${VAR}` was not highlighted as a variable the way `$VAR` is | [#1030](https://github.com/HalFrgrd/flyline/pull/1030) | ✅ Merged |
 | **[atlas](https://github.com/pacifio/atlas)** · desktop app for coding agents · Rust/Tauri | Unit tests could not start on Windows because the test binary had no application manifest | [#390](https://github.com/pacifio/atlas/pull/390) | ✅ Merged |
+| **[kloset](https://github.com/PlakarKorp/kloset)** · storage engine of the plakar backup tool · Go | Maintenance aborted on Windows backups whose drive letter was recorded in lowercase | [#567](https://github.com/PlakarKorp/kloset/pull/567) | ✅ Merged |
 | **[scaleway-cli](https://github.com/scaleway/scaleway-cli)** · Scaleway's official CLI · Go | Doc generator did not escape `\|`, breaking tables on three command pages | [#6359](https://github.com/scaleway/scaleway-cli/pull/6359) | 🔄 In review |
 | **[webawesome](https://github.com/shoelace-style/webawesome)** · web components · TypeScript/CSS | Sprite-sheet icons rendered a 300px-wide box that stole clicks from neighbours | [#2920](https://github.com/shoelace-style/webawesome/pull/2920) | 🔄 In review |
-| **[kloset](https://github.com/PlakarKorp/kloset)** · storage engine of the plakar backup tool · Go | Maintenance aborted on Windows backups whose drive letter was recorded in lowercase | [#567](https://github.com/PlakarKorp/kloset/pull/567) | 🔄 In review |
 | **[math.js](https://github.com/josdejong/mathjs)** · maths library with an expression parser and symbolic algebra · JavaScript | Symbolic differentiation gave wrong results for nested derivatives, such as a second derivative coming out as 0 | [#3715](https://github.com/josdejong/mathjs/pull/3715) | 🔄 In review |
 | **[KAPLAY](https://github.com/kaplayjs/kaplay)** · 2D game library for the browser · TypeScript | Colliding bodies ignored each other's mass and velocity, so collisions did not conserve momentum | [#1174](https://github.com/kaplayjs/kaplay/pull/1174) | 🔄 In review |
 | **[Taffy](https://github.com/DioxusLabs/taffy)** · CSS Flexbox/Grid layout engine used by Bevy, Dioxus and Zed · Rust | Containers with a `max-width` laid out their children as if the limit was not there, so text wrapped at the wrong width | [#1277](https://github.com/DioxusLabs/taffy/pull/1277) | 🔄 In review |
