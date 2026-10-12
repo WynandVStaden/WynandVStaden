@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**11 pull requests merged across 10 projects** · <sub>updated 12 October 2026</sub>
+**12 pull requests merged across 11 projects** · <sub>updated 12 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -30,5 +30,6 @@ fixed and checked against the project's own tests.
 | **[flyline](https://github.com/HalFrgrd/flyline)** · Bash line editor · Rust | `${VAR}` was not highlighted as a variable the way `$VAR` is | [#1030](https://github.com/HalFrgrd/flyline/pull/1030) | ✅ Merged |
 | **[atlas](https://github.com/pacifio/atlas)** · desktop app for coding agents · Rust/Tauri | Unit tests could not start on Windows because the test binary had no application manifest | [#390](https://github.com/pacifio/atlas/pull/390) | ✅ Merged |
 | **[kloset](https://github.com/PlakarKorp/kloset)** · storage engine of the plakar backup tool · Go | Maintenance aborted on Windows backups whose drive letter was recorded in lowercase | [#567](https://github.com/PlakarKorp/kloset/pull/567) | ✅ Merged |
+| **[KAPLAY](https://github.com/kaplayjs/kaplay)** · 2D game library for the browser · TypeScript | Colliding bodies ignored each other's mass and velocity, so collisions did not conserve momentum | [#1174](https://github.com/kaplayjs/kaplay/pull/1174) | ✅ Merged |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
