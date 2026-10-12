@@ -1,0 +1,139 @@
+%-------------------------------------------------------------------------------
+% Resume of Wynand van Staden
+%
+% Compile:  pdflatex wynand_van_staden_resume.tex      (or upload this one file to Overleaf)
+% Edit:     everything you would normally change is in the document body below.
+%           The helper commands are:
+%             \job{Title}{Dates}{Employer}{Place}
+%             \project{Name}{Tech or link}
+%             \degree{Degree}{University, Place}{Dates}
+%           and bullets are ordinary \item lines inside \begin{bullets}...\end{bullets}.
+%-------------------------------------------------------------------------------
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=1.1cm,bottom=1.1cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+
+\definecolor{accent}{HTML}{1F3A5F}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Section headings: coloured, with a rule underneath
+\titleformat{\section}{\color{accent}\large\bfseries}{}{0pt}{}[{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+% Bulleted list with tight spacing
+\newenvironment{bullets}{%
+  \begin{itemize}[leftmargin=1.2em,itemsep=1.5pt,topsep=2pt,parsep=0pt,label={\small\textbullet}]%
+}{\end{itemize}}
+
+% \job{Title}{Dates}{Employer}{Place}
+\newcommand{\job}[4]{%
+  \textbf{#1}\hfill #2\par
+  \textit{#3}\hfill \textit{#4}\par\vspace{1pt}}
+
+% \project{Name}{Tech or link}
+\newcommand{\project}[2]{\textbf{#1}\hfill \textit{#2}\par\vspace{1pt}}
+
+% \degree{Degree}{University, Place}{Dates}
+\newcommand{\degree}[3]{\textbf{#1}, \textit{#2}\hfill #3\par}
+
+\newcommand{\gap}{\vspace{4pt}}
+\newcommand{\sep}{\enspace\textbar\enspace}
+
+\begin{document}
+
+%----------------------------- HEADER ------------------------------------------
+\begin{center}
+  {\Huge\bfseries\color{accent} Wynand van Staden}\\[4pt]
+  {\large Software Engineer}\\[5pt]
+  Worcester, Western Cape, South Africa \sep
+  \href{mailto:vanstadenw24@gmail.com}{vanstadenw24@gmail.com} \sep
+  +27 74 615 0438\\[2pt]
+  {\small
+  \href{https://github.com/WynandVStaden}{github.com/WynandVStaden} \sep
+  \href{https://www.linkedin.com/in/wynand-van-staden-5759a3254}{linkedin.com/in/wynand-van-staden-5759a3254}}
+\end{center}
+
+%----------------------------- PROFILE -----------------------------------------
+\section{Profile}
+Software engineer with about two years of professional experience and an honours degree in
+computer science. I build software with AI coding agents: I choose the problem, direct the agent,
+and accept a change only once it is reproduced, tested and up to the project's standards.
+
+%----------------------------- EXPERIENCE --------------------------------------
+\section{Experience}
+
+\job{Software Engineer}{Apr 2025 -- Present}{Infinity Data AI}{Full-time}
+\begin{bullets}
+  \item Manage data pipelines using AI coding agents.
+  \item Contribute to and maintain a large codebase.
+\end{bullets}
+\gap
+
+\job{AI Training Contributor (part-time, freelance)}{Oct 2026}{Superposition AI}{Remote}
+\begin{bullets}
+  \item Recorded narrated video-game sessions used as training data for game-playing AI models.
+\end{bullets}
+\gap
+
+\job{AI Trainer, Mathematics}{Nov 2024 -- Mar 2025}{Outlier AI}{Remote}
+\begin{bullets}
+  \item Wrote mathematics problems designed to expose reasoning errors in a large language model.
+  \item Located the faulty step in the model's working and wrote the corrected solution used to
+        retrain it.
+\end{bullets}
+\gap
+
+\job{Honours Research Project}{Feb 2024 -- Nov 2024}{Stellenbosch University}{Stellenbosch, South Africa}
+\begin{bullets}
+  \item Year-long research project on classifying radio galaxies by their symmetry (Python):
+        principal component analysis for reflective symmetry, and fitted polynomials as features
+        for curved galaxies.
+  \item Trained in how to carry out research and report it: reading the literature, designing
+        experiments, and writing up the method and results.
+\end{bullets}
+
+%----------------------------- OPEN SOURCE -------------------------------------
+\section{Open-Source Contributions}
+\textbf{12 pull requests merged across 11 projects} (October 2026), written with an AI coding agent
+under my direction. For each I picked an unclaimed bug, had it reproduced first, required a test
+that fails without the fix, and handled the maintainers' review.
+\href{https://github.com/pulls?q=is\%3Apr+author\%3AWynandVStaden+is\%3Amerged}{\textit{Full list on GitHub.}}
+\begin{bullets}
+  \item \textbf{KAPLAY} (TypeScript, 2D game library): collisions between moving bodies ignored mass
+        and velocity; implemented momentum exchange and tests that check momentum and energy.
+  \item \textbf{rust-decimal} (Rust): exact parsing rejected a valid digit separator after the 28th
+        decimal place.
+  \item \textbf{chunkhound} (Python and Rust, code search): re-indexing an unchanged project rebuilt
+        the whole vector index; two fixes merged.
+  \item \textbf{smolvm}, \textbf{kloset} (Rust, Go): image extraction and backup maintenance failed
+        on Windows.
+  \item Also merged in \textbf{flyline}, \textbf{atlas}, \textbf{snip}, \textbf{doorstop},
+        \textbf{office365-rest-python-client} and \textbf{collie}.
+\end{bullets}
+
+%----------------------------- EDUCATION ---------------------------------------
+\section{Education}
+\degree{BSc (Hons) Computer Science}{Stellenbosch University, South Africa}{Feb 2024 -- Nov 2024}
+\degree{BSc Mathematics and Computer Science}{Stellenbosch University, South Africa}{Feb 2020 -- Nov 2023}
+
+%----------------------------- SKILLS ------------------------------------------
+\section{Skills}
+\begin{bullets}
+  \item \textbf{AI-assisted engineering:} directing coding agents, task specification,
+        verification-first review.
+  \item \textbf{Languages:} Python (main); Rust, Go, TypeScript, Java and C with agent assistance.
+  \item \textbf{Tools:} Git and GitHub pull requests, automated testing, CI, Linux and Windows,
+        FastAPI, PostgreSQL.
+\end{bullets}
+
+\end{document}
