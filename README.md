@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**14 pull requests merged across 12 projects** · <sub>updated 14 October 2026</sub>
+**15 pull requests merged across 13 projects** · <sub>updated 15 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -33,5 +33,6 @@ fixed and checked against the project's own tests.
 | **[KAPLAY](https://github.com/kaplayjs/kaplay)** · 2D game library for the browser · TypeScript | Colliding bodies ignored each other's mass and velocity, so collisions did not conserve momentum | [#1174](https://github.com/kaplayjs/kaplay/pull/1174) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · local stand-in for SaaS APIs (Slack, Jira, HubSpot …) · Python | The HubSpot API accepted `NaN` and `Infinity` in request bodies where the real service refuses them | [#640](https://github.com/brekkylab/backlot/pull/640) | ✅ Merged |
 | **[chunkhound](https://github.com/chunkhound/chunkhound)** · documentation | Follow-up requested in review: descriptions still said the vector index is always rebuilt | [#438](https://github.com/chunkhound/chunkhound/pull/438) | ✅ Merged |
+| **[scaleway-cli](https://github.com/scaleway/scaleway-cli)** · official CLI for the Scaleway cloud · Go | Generated command docs broke their argument tables when a description contained a `|` | [#6359](https://github.com/scaleway/scaleway-cli/pull/6359) | ✅ Merged |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
