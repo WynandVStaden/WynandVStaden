@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**18 pull requests merged across 13 projects** · <sub>updated 16 October 2026</sub>
+**19 pull requests merged across 13 projects** · <sub>updated 16 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -37,5 +37,6 @@ fixed and checked against the project's own tests.
 | **[Backlot](https://github.com/brekkylab/backlot)** · Google Docs | A document read was missing the `commentsViewMode` field the real API always sends | [#744](https://github.com/brekkylab/backlot/pull/744) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | `newer:` and `older:` searches returned nothing instead of acting like `after:` and `before:` | [#745](https://github.com/brekkylab/backlot/pull/745) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · HubSpot | Three numeric object-type ids the real API accepts were refused as unknown | [#746](https://github.com/brekkylab/backlot/pull/746) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | A `+` inside a search value (`cc:lena+update`) was read as part of the value instead of starting a new search term | [#772](https://github.com/brekkylab/backlot/pull/772) | ✅ Merged |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
