@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**21 pull requests merged across 14 projects** · <sub>updated 17 October 2026</sub>
+**22 pull requests merged across 14 projects** · <sub>updated 17 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -39,6 +39,7 @@ fixed and checked against the project's own tests.
 | **[Backlot](https://github.com/brekkylab/backlot)** · HubSpot | Three numeric object-type ids the real API accepts were refused as unknown | [#746](https://github.com/brekkylab/backlot/pull/746) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | A `+` inside a search value (`cc:lena+update`) was read as part of the value instead of starting a new search term | [#772](https://github.com/brekkylab/backlot/pull/772) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Slack | A negative or very large `limit` dropped the last item or crashed, where the real API answers per method | [#773](https://github.com/brekkylab/backlot/pull/773) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | `after:`/`before:` skipped dates they could not read and misread month-first, quoted and negated dates | [#782](https://github.com/brekkylab/backlot/pull/782) | ✅ Merged |
 | **[deja-vu](https://github.com/vshulcz/deja-vu)** · session recall for coding agents · Go | `deja promote` given two ids silently promoted the second, skipping a mistyped first | [#5099](https://github.com/vshulcz/deja-vu/pull/5099) | ✅ Merged |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
