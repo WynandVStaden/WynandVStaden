@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**24 pull requests merged across 14 projects** · <sub>updated 18 October 2026</sub>
+**28 pull requests merged across 15 projects** · <sub>updated 19 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -42,6 +42,10 @@ fixed and checked against the project's own tests.
 | **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | `after:`/`before:` skipped dates they could not read and misread month-first, quoted and negated dates | [#782](https://github.com/brekkylab/backlot/pull/782) | ✅ Merged |
 | **[flyline](https://github.com/HalFrgrd/flyline)** · follow-up | The braces of `${VAR}` are now coloured as part of the variable, as the reporter asked | [#1036](https://github.com/HalFrgrd/flyline/pull/1036) | ✅ Merged |
 | **[flyline](https://github.com/HalFrgrd/flyline)** · styles | `set-style inline-suggestion` had no effect on the suggested text | [#1039](https://github.com/HalFrgrd/flyline/pull/1039) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Google Drive | A folder or file the caller does not own reported `canShare: true`, where real Drive says false | [#802](https://github.com/brekkylab/backlot/pull/802) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | `-from:bob` and `from:-bob` were not read as "not from bob" | [#805](https://github.com/brekkylab/backlot/pull/805) | ✅ Merged |
+| **[deja-vu](https://github.com/vshulcz/deja-vu)** · help text | `tests`, `recap` and `secrets` help now say the `--limit` default and that 0 shows all | [#5290](https://github.com/vshulcz/deja-vu/pull/5290) | ✅ Merged |
+| **[repowise](https://github.com/repowise-dev/repowise)** · codebase intelligence for AI agents · Python | The refactoring planner proposed extracting cut-off function signatures and `...` stubs as shared helpers | [#3950](https://github.com/repowise-dev/repowise/pull/3950) | ✅ Merged |
 | **[deja-vu](https://github.com/vshulcz/deja-vu)** · session recall for coding agents · Go | `deja promote` given two ids silently promoted the second, skipping a mistyped first | [#5099](https://github.com/vshulcz/deja-vu/pull/5099) | ✅ Merged |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
