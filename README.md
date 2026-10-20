@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**28 pull requests merged across 15 projects** · <sub>updated 19 October 2026</sub>
+**30 pull requests merged across 16 projects** · <sub>updated 20 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -46,6 +46,8 @@ fixed and checked against the project's own tests.
 | **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | `-from:bob` and `from:-bob` were not read as "not from bob" | [#805](https://github.com/brekkylab/backlot/pull/805) | ✅ Merged |
 | **[deja-vu](https://github.com/vshulcz/deja-vu)** · help text | `tests`, `recap` and `secrets` help now say the `--limit` default and that 0 shows all | [#5290](https://github.com/vshulcz/deja-vu/pull/5290) | ✅ Merged |
 | **[repowise](https://github.com/repowise-dev/repowise)** · codebase intelligence for AI agents · Python | The refactoring planner proposed extracting cut-off function signatures and `...` stubs as shared helpers | [#3950](https://github.com/repowise-dev/repowise/pull/3950) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | An empty `subject:`, `label:` or `in:` before another operator swallowed it instead of being dropped | [#858](https://github.com/brekkylab/backlot/pull/858) | ✅ Merged |
+| **[pyscn](https://github.com/ludo-technologies/pyscn)** · Python code quality analyser · Go | Conditional expressions (`a if c else b`) added nothing to McCabe complexity | [#853](https://github.com/ludo-technologies/pyscn/pull/853) | ✅ Merged |
 | **[deja-vu](https://github.com/vshulcz/deja-vu)** · session recall for coding agents · Go | `deja promote` given two ids silently promoted the second, skipping a mistyped first | [#5099](https://github.com/vshulcz/deja-vu/pull/5099) | ✅ Merged |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AWynandVStaden+-user%3AWynandVStaden)
