@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**31 pull requests merged across 16 projects** · <sub>updated 21 October 2026</sub>
+**33 pull requests merged across 16 projects** · <sub>updated 22 October 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -48,6 +48,8 @@ fixed and checked against the project's own tests.
 | **[repowise](https://github.com/repowise-dev/repowise)** · codebase intelligence for AI agents · Python | The refactoring planner proposed extracting cut-off function signatures and `...` stubs as shared helpers | [#3950](https://github.com/repowise-dev/repowise/pull/3950) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | An empty `subject:`, `label:` or `in:` before another operator swallowed it instead of being dropped | [#858](https://github.com/brekkylab/backlot/pull/858) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Gmail search | `-label:inbox`, `NOT from:bob` and `-(from:bob)` were not read as negations | [#890](https://github.com/brekkylab/backlot/pull/890) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Linear | A page reported more results in the direction it was not asked for | [#919](https://github.com/brekkylab/backlot/pull/919) | ✅ Merged |
+| **[snip](https://github.com/edouard-claude/snip)** · tests | Tests wrote to the real home folder on Windows because `USERPROFILE` was not redirected with `HOME` | [#199](https://github.com/edouard-claude/snip/pull/199) | ✅ Merged |
 | **[pyscn](https://github.com/ludo-technologies/pyscn)** · Python code quality analyser · Go | Conditional expressions (`a if c else b`) added nothing to McCabe complexity | [#853](https://github.com/ludo-technologies/pyscn/pull/853) | ✅ Merged |
 | **[deja-vu](https://github.com/vshulcz/deja-vu)** · session recall for coding agents · Go | `deja promote` given two ids silently promoted the second, skipping a mistyped first | [#5099](https://github.com/vshulcz/deja-vu/pull/5099) | ✅ Merged |
 
