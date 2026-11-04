@@ -12,7 +12,7 @@ own standards.
 
 ### Open-source contributions
 
-**36 pull requests merged across 17 projects** · <sub>updated 31 October 2026</sub>
+**37 pull requests merged across 17 projects** · <sub>updated 4 November 2026</sub>
 
 Bug fixes in projects I had not worked on before. Each one was reproduced before it was
 fixed and checked against the project's own tests.
@@ -52,6 +52,7 @@ fixed and checked against the project's own tests.
 | **[snip](https://github.com/edouard-claude/snip)** · tests | Tests wrote to the real home folder on Windows because `USERPROFILE` was not redirected with `HOME` | [#199](https://github.com/edouard-claude/snip/pull/199) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Google APIs | Long reads Google's own client sends as a POST with `X-HTTP-Method-Override: GET` were refused with a 405 | [#975](https://github.com/brekkylab/backlot/pull/975) | ✅ Merged |
 | **[Backlot](https://github.com/brekkylab/backlot)** · Confluence search | The CQL search echoed queries as sent and answered unparseable ones with an empty 200 | [#1007](https://github.com/brekkylab/backlot/pull/1007) | ✅ Merged |
+| **[Backlot](https://github.com/brekkylab/backlot)** · Slack | Editing or reacting to a thread reply left out who started the thread (`parent_user_id`) | [#1189](https://github.com/brekkylab/backlot/pull/1189) | ✅ Merged |
 | **[optimizationproblems](https://github.com/teorth/optimizationproblems)** · Terence Tao's table of optimization constants | Entry 57c (univalent Bloch constant): the history of upper bounds and a new computer-assisted bound, 0.65628589 | [#245](https://github.com/teorth/optimizationproblems/pull/245) | ✅ Merged |
 | **[pyscn](https://github.com/ludo-technologies/pyscn)** · Python code quality analyser · Go | Conditional expressions (`a if c else b`) added nothing to McCabe complexity | [#853](https://github.com/ludo-technologies/pyscn/pull/853) | ✅ Merged |
 | **[deja-vu](https://github.com/vshulcz/deja-vu)** · session recall for coding agents · Go | `deja promote` given two ids silently promoted the second, skipping a mistyped first | [#5099](https://github.com/vshulcz/deja-vu/pull/5099) | ✅ Merged |
